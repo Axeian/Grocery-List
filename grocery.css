@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(211, 222, 231);
+}
+
+.box{
+    background-color: white;
+    width: 550px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#popup{
+    border-radius: 2px;
+    width: 450px;
+    display: inline-block;
+}
+
+.input, #submit, #edit{
+    border: thin;
+    height: 25px;
+}
+
+.input{
+    width: 400px;
+    background-color: rgb(231, 236, 243);
+    border-radius: 5px 0 0 5px;
+}
+
+#submit, #edit{
+    background-color: rgb(107, 205, 250);
+    margin-left: 0px;
+    border-radius: 0 5px 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit:hover, #edit:hover{
+    background-color: rgb(33, 137, 223);
+    color: white;
+}
+
+.list li{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.list li:hover{
+    background-color: rgb(231, 236, 243);
+}
+
+.list li span{
+    text-transform: capitalize;
+    width: 50%;
+    display: inline-block;
+}
+
+.list button{
+    background-repeat: no-repeat;
+    text-indent: -10000000px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    border: thin;
+}
+
+.edititem{
+    margin-left: 180px;
+    background-image: url(edit.png);
+}
+
+.delete :hover{
+    border: 1px;
+}
+
+.delete{
+    margin-left: 10px;
+    background-image: url(delete.png);
+}
+
+#clear{
+    background-color: white;
+    border: thin;
+    color: rgb(214, 58, 58);
+    font-size: 18;
+}
+
+
+.hide{
+    display: none;
+}
+
+.transparent{
+    opacity: 0;
+}
+
+.red{
+    background-color: rgb(212, 172, 172);
+}
+
+.green{
+    background-color: rgb(168, 211, 168);
+}
