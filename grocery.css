@@ -4,7 +4,7 @@ body{
 
 .box{
     background-color: white;
-    width: 550px;
+    width: 500px;
     margin: auto;
     margin-top: 100px;
     padding-top: 20px;
@@ -73,7 +73,7 @@ button:hover{
 }
 
 .edititem{
-    margin-left: 180px;
+    margin-left: 165px;
     background-image: url(edit.png);
 }
 
